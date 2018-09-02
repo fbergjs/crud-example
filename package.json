@@ -1,27 +1,32 @@
 {
-  "name": "fbergjs-crud-example",
-  "version": "1.0.0",
-  "description": "Vzorový projekt pre výučbu JavaScriptu na FBERG.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/fbergjs/crud-example.git"
-  },
-  "keywords": [
-    "fberg",
-    "javascript",
-    "crud",
-    "nodejs",
-    "express",
-    "mongodb"
-  ],
-  "author": "Michal Takáč <takacmichal92@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/fbergjs/crud-example/issues"
-  },
-  "homepage": "https://github.com/fbergjs/crud-example#readme"
+	"name": "fbergjs-crud-example",
+	"version": "1.0.0",
+	"description": "Vzorový projekt pre výučbu JavaScriptu na FBERG.",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/fbergjs/crud-example.git"
+	},
+	"keywords": [
+		"fberg",
+		"javascript",
+		"crud",
+		"nodejs",
+		"express",
+		"mongodb"
+	],
+	"author": "Michal Takáč <takacmichal92@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/fbergjs/crud-example/issues"
+	},
+	"homepage": "https://github.com/fbergjs/crud-example#readme",
+	"dependencies": {
+		"body-parser": "^1.18.3",
+		"express": "^4.16.3",
+		"mongoose": "^5.2.12"
+	}
 }
